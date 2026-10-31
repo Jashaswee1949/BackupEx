@@ -1,0 +1,55 @@
+﻿# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated build outputs
+bin/
+gen/
+out/
+build/
+/build
+app/build/
+captures/
+.externalNativeBuild
+.cxx
+
+# Gradle files & caches
+.gradle/
+
+# Local configuration file (SDK path, machine-specific properties)
+local.properties
+
+# Android Studio / IntelliJ IDEA configuration
+*.iml
+.idea/
+
+# Keystores & sensitive signing credentials
+*.jks
+*.keystore
+*.key
+*.pepk
+*.p12
+*.pem
+signing.properties
+keystore.properties
+
+# Private WhatsApp databases, backups, and journal files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.crypt*
+
+# OS specific files
+.DS_Store
+Thumbs.db
