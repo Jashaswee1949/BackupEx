@@ -1,4 +1,4 @@
-﻿# BackupEx
+# BackupEx
 
 [![Platform](https://img.shields.io/badge/Platform-Android%208.0%2B%20(API%2026%2B)-green.svg)](https://android.com)
 [![Language](https://img.shields.io/badge/Language-Kotlin%202.2-blue.svg)](https://kotlinlang.org)
@@ -12,33 +12,33 @@ Designed to navigate large conversation histories with responsive message loadin
 
 ---
 
-## âœ¨ Features
+## ✨ Features
 
-- ðŸ”’ **100% Offline & Private:**
+- 🔒 **100% Offline & Private:**
   - **Zero network permissions** (`INTERNET` permission is completely absent from the manifest).
   - Decryption, database indexing, and chat rendering are executed entirely on-device. No data or telemetry ever leaves your phone.
-- ðŸ’¬ **WhatsApp AMOLED Chat Experience:**
+- 💬 **WhatsApp AMOLED Chat Experience:**
   - Modern, true-black AMOLED theme (`#000000`) with authentic WhatsApp dark green accents and message bubble styling.
   - Displays outgoing/incoming bubbles, delivery ticks, timestamps, sender names in groups, and media type placeholders (Photos, Videos, Audio, Voice Notes, Documents, Stickers, Locations, and Contacts).
-- ðŸ“œ **Efficient Keyset Pagination:**
+- 📜 **Efficient Keyset Pagination:**
   - Powered by AndroidX **Paging 3** with indexed SQLite keyset queries.
   - Loads messages in small, bounded batches on demand, avoiding loading entire chat histories into memory.
-- ðŸ” **Fast Text & Date Search:**
+- 🔍 **Fast Text & Date Search:**
   - Debounced substring search across conversations.
   - Multi-language search support (including English, Hinglish, Hindi, Odia, and emojis).
   - Date search parsing (e.g., jump directly to `2 Nov 2022`).
-- â†©ï¸ **WhatsApp Quoted Reply Navigation:**
-  - Tap on quoted replies inside message bubbles to immediately jump to and highlight the referenced messageâ€”even if it is unloaded and further back in the chat.
-- âš¡ **Offline Decryption Engine:**
+- ↩️ **WhatsApp Quoted Reply Navigation:**
+  - Tap on quoted replies inside message bubbles to immediately jump to and highlight the referenced message—even if it is unloaded and further back in the chat.
+- ⚡ **Offline Decryption Engine:**
   - Embedded Python runtime powered by **Chaquopy** and `wa-crypt-tools`.
   - Supports WhatsApp 64-hex-digit encryption keys with `.crypt15` and `.crypt14` backups.
-- ðŸª¶ **Optimized & Lightweight:**
+- 🪶 **Optimized & Lightweight:**
   - ProGuard and R8 full code shrinking and resource stripping.
   - Single-architecture (`arm64-v8a`) native library packaging producing an ultra-compact ~13.3 MB release APK.
 
 ---
 
-## ðŸ› ï¸ Tech Stack & Architecture
+## 🛠️ Tech Stack & Architecture
 
 - **Language:** Kotlin 2.2
 - **UI Framework:** Jetpack Compose with Material 3 (AMOLED Dark Palette)
@@ -51,7 +51,7 @@ Designed to navigate large conversation histories with responsive message loadin
 
 ---
 
-## ðŸš€ Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -80,7 +80,7 @@ Designed to navigate large conversation histories with responsive message loadin
 
 ---
 
-## ðŸ“– How to Use
+## 📖 How to Use
 
 1. **Export / Locate your WhatsApp Backup:**
    - Locate your WhatsApp encrypted database (e.g., `msgstore.db.crypt15`) on your device storage (commonly found in `Android/media/com.whatsapp/WhatsApp/Databases/`).
@@ -95,7 +95,7 @@ Designed to navigate large conversation histories with responsive message loadin
 
 ---
 
-## ðŸ” Privacy & Security
+## 🔐 Privacy & Security
 
 BackupEx is engineered strictly as a read-only offline backup viewer:
 - **No Internet Access:** The application does not declare `android.permission.INTERNET`. It cannot connect to any external server or network.
@@ -104,12 +104,12 @@ BackupEx is engineered strictly as a read-only offline backup viewer:
 
 ---
 
-## ðŸ‘¤ Author
+## 👤 Author
 
 Developed with care by **Jashaswee**.
 
 ---
 
-## ðŸ“„ License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
