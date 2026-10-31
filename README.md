@@ -106,7 +106,7 @@ BackupEx is engineered strictly as a read-only offline backup viewer:
 
 ## 👤 Author
 
-Developed with care by **Jashaswee N Behera**.
+Developed with care by **Jashaswee**.
 
 ---
 
