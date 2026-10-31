@@ -6,7 +6,7 @@
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Offline%20(No%20Internet)-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**BackupEx** is a high-performance, fully offline Android application that decrypts WhatsApp end-to-end encrypted backup files (`.crypt15`, `.crypt14`) directly on-device and provides an authentic WhatsApp-style AMOLED chat viewer.
+**BackupEx** is a high-performance, fully offline Android application that decrypts WhatsApp end-to-end encrypted backup files (`.crypt15`) directly on-device and provides an authentic WhatsApp-style AMOLED chat viewer.
 
 Designed to navigate large conversation histories with responsive message loading, fast full-text & date search, and quoted reply navigation.
 
@@ -106,7 +106,7 @@ BackupEx is engineered strictly as a read-only offline backup viewer:
 
 ## 👤 Author
 
-Developed with care by **Jashaswee**.
+Developed with care by **Jashaswee N Behera**.
 
 ---
 
